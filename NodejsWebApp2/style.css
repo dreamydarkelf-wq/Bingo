@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#bingo {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+    #bingo td {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #333;
+        padding: 6px;
+        cursor: pointer;
+        user-select: none;
+        transition: background 0.2s;
+    }
+
+        #bingo td:hover {
+            background: #e6ffe0;
+        }
+
+        #bingo td.selected {
+            background: #4CAF50;
+            color: white;
+        }
