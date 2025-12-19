@@ -1,0 +1,13 @@
+{
+  "name": "bingo",
+  "version": "0.0.0",
+  "description": "Bingo",
+  "main": "script.js",
+  "author": {
+    "name": ""
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "eslint": "^8.57.1"
+  }
+}
